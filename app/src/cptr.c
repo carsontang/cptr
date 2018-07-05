@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "cptr.h"
-#include "fastmath.h"
 
 int main(int argc, char *argv[])
 {
