@@ -10,3 +10,7 @@ include_directories(include)
 set(cptr_SOURCES src/cptr.c)
 
 add_executable(cptr ${cptr_SOURCES})
+
+add_subdirectory(fastmath)
+
+target_link_libraries(fastmath)
